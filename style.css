@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     user-select: none;
-    background-image: url(among-us-space.svg);
+    background-image: url(img/among-us-space.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -171,7 +171,7 @@
   
   .ledOn {
     border: solid 5px #202020;
-    background-image: url(ledgreen.svg);
+    background-image: url(img/ledgreen.svg);
     background-size: contain;
   }
   
@@ -243,7 +243,7 @@
   @keyframes errorLed {
     to {
       border: solid 5px #202020;
-      background-image: url(ledred.svg);
+      background-image: url(img/ledred.svg);
     }
   }
   
@@ -258,7 +258,7 @@
   @keyframes completeLed {
     to {
       border: solid 5px #202020;
-      background-image: url(ledgreen.svg);
+      background-image: url(img/ledgreen.svg);
     }
   }
   
