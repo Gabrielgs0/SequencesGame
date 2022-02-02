@@ -1,9 +1,5 @@
 @keyframes animacao{
-    20%{color:#0b22a8; left: 0px; text-shadow: 5px 5px 10px #BFB3A8}
-    40%{color:blue; left: 100px; text-shadow: 5px 5px 10px #d3c5b7}
-    60%{color:#d40c0c; left: 120px; text-shadow: 5px 5px 10px #e0d6cc}
-    80%{color:#ec2626; left: 60px; text-shadow: 5px 5px 10px #f1e4d8}
-    100%{color:#8d8e8f00; left: 2px; text-shadow: 5px 5px 10px #BFB3A8}
+  0%{letter-spacing:-.5em;transform:translateZ(-700px);opacity:0; color: white;}40%{opacity:.6;color: white}100%{transform:translateZ(0);opacity:1;color: white}
 }
 
 * {
@@ -237,7 +233,8 @@
     position: relative;
     animation-name: animacao;
     animation-duration: 5s;
-    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    color: transparent;
   }
   
   @keyframes errorLed {
